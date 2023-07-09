@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix Homepage</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+    }
+
+    #navbar {
+      background-color: #111;
+      padding: 10px;
+    }
+
+    #navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navbar ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    #navbar ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    #hero {
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    #hero p {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 50px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .col {
+      width: 30%;
+      margin-bottom: 40px;
+    }
+
+    .col img {
+      width: 100%;
+    }
+
+    .col h2 {
+      font-size: 24px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .col p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header id="navbar">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">New & Popular</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h1>Welcome to Netflix</h1>
+      <p>Unlimited movies, TV shows, and more. Watch anywhere. Cancel anytime.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Trending Now</h2>
+      <div class="row">
+        <div class="col">
+          <img src="money.jpg" alt="My List">
+          <h2>My List</h2>
+          <p>International TV Shows Dubbed in Hindi.</p>
+        </div>
+        <div class="col">
+          <img src="img.jpg" alt="Movies">
+          <h2>Movies</h2>
+          <p>Action & Adventure Movies.</p>
+        </div>
+        <div class="col">
+          <img src="asur.jpg" alt="Web Shows">
+          <h2>Web Shows</h2>
+          <p>Top 10 TV Shows in India Today.</p>
+        </div>
+      </div>
+
+      <h2>Only on Netflix</h2>
+      <div class="row">
+        <div class="col">
+          <img src="wall.jpg" alt="True Crime">
+          <h2>True Crime</h2>
+          <p>Family Watch Together TV.</p>
+        </div>
+        <div class="col">
+          <img src="cartoon.jpg" alt="Anime">
+          <h2>Anime</h2>
+          <p>Children & Family TV.</p>
+        </div>
+        <div class="col">
+          <img src="webseries.jpg" alt="Crime Movies">
+          <h2>Crime Movies</h2>
+          <p>Criminals with Style.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
